@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /usr/bin/autoimport
+python3 autoimport.py
+

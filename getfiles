@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /mnt/c/Users/Lucas/Documents/VSCODE/transfer_47077_files_f2c1d4be
+
+
+
+ls > /usr/bin/autoimport/output.txt
