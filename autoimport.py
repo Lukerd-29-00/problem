@@ -11,6 +11,10 @@ print(r.text)
 cmd = "curl -XPOST " + base + "/repositories -H 'Content-Type:multipart/form-data' -F \"config=@config.ttl\""
 print(cmd)
 system(cmd)
+#f = open("config.ttl")
+#r = requests.post(base + "/repositories",files={'config':f})
+
+print(r.text)
 
 system("cp /mnt/c/Users/Lucas/Documents/VSCODE/transfer_47077_files_f2c1d4be/* /mnt/c/Users/Lucas/graphdb-import")
 system("./getfiles")
